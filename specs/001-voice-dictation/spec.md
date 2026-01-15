@@ -102,6 +102,24 @@ A user opens the application in an unsupported browser (e.g., Firefox, Safari wi
 
 ---
 
+### User Story 7 - Delete Saved Note (Priority: P2)
+
+A user wants to remove a note they no longer need from the sidebar. They click a delete button next to a note in the sidebar list, and the note is removed from both the display and persistent storage.
+
+**Why this priority**: While not critical for MVP, this is important for long-term usability. Without delete functionality, the sidebar will become cluttered over time and LocalStorage may fill up. This feature enables users to manage their saved notes effectively.
+
+**Independent Test**: User can save a note, then delete it from the sidebar and see it disappear. After browser refresh, the deleted note does not reappear. Can be tested independently of other features.
+
+**Acceptance Scenarios**:
+
+1. **Given** one or more notes exist in the sidebar, **When** user clicks the delete button next to a note, **Then** the note is removed from the sidebar immediately
+2. **Given** a note is deleted, **When** the user refreshes the browser, **Then** the deleted note does not reappear in the sidebar
+3. **Given** the sidebar has multiple notes, **When** user deletes a note, **Then** the remaining notes maintain their order
+4. **Given** a note is displayed in the textarea, **When** user deletes that same note from the sidebar, **Then** the textarea content is not affected
+5. **Given** all notes are deleted, **When** the sidebar is empty, **Then** a placeholder message appears indicating no saved notes exist
+
+---
+
 ### Edge Cases
 
 - What happens when the user denies microphone permission?
@@ -114,6 +132,8 @@ A user opens the application in an unsupported browser (e.g., Firefox, Safari wi
 - How does the application handle silence or background noise during recording?
 - What happens when the user saves multiple notes with identical content?
 - How does the system handle unsupported languages not in the dropdown?
+- How does the application handle deleting a note while it is being displayed in the textarea?
+- What happens when a user accidentally deletes a note (is there an undo option)?
 
 ## Requirements *(mandatory)*
 
@@ -134,6 +154,7 @@ A user opens the application in an unsupported browser (e.g., Firefox, Safari wi
 - **FR-013**: System MUST display a helpful error message when the browser does not support speech recognition
 - **FR-014**: System MUST display the most recent saved notes first in the sidebar
 - **FR-015**: System MUST handle microphone permission denial gracefully with a clear message
+- **FR-016**: System MUST provide a delete button for each note in the sidebar that removes the note from both display and persistent storage
 
 ### Key Entities
 
