@@ -1,7 +1,7 @@
 # Feature Specification: Voice Dictation Interface (MVP)
 
 **Feature Branch**: `001-voice-dictation`
-**Created**: 2026-01-15
+**Created**: 2026-01-16
 **Status**: Draft
 **Input**: User description: "Feature: Voice Dictation Interface (MVP). Description: - UI Layout: - Center: A large Microphone button (Pulse animation when recording). - Below: A Textarea that updates in real-time as user speaks. - Sidebar: List of saved notes. - Functionality: - User clicks Mic -> Browser requests permission -> Start recording. - Convert speech to text continuously using Web Speech API. - Button 'Stop' -> Finalize text. - Button 'Save Note' -> Add to sidebar list (Save to LocalStorage). - Button 'Clear' -> Wipe text. - Support language switching (English/Vietnamese) via a dropdown. Note: - No backend required for speech processing (Client-side only). - Handle browser support errors (Show message 'Browser not supported' if not Chrome)."
 

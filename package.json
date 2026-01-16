@@ -1,0 +1,40 @@
+{
+  "name": "speech-to-text",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000p\u0000e\u0000e\u0000c\u0000h\u0000-\u0000T\u0000o\u0000-\u0000T\u0000e\u0000x\u0000t\u0000\r\u0000 \u0000",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ne4nf/Speech-To-Text.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ne4nf/Speech-To-Text/issues"
+  },
+  "homepage": "https://github.com/Ne4nf/Speech-To-Text#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.8",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.23",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.562.0",
+    "next": "^16.1.2",
+    "postcss": "^8.5.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "zustand": "^5.0.10"
+  }
+}

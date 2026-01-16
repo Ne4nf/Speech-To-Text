@@ -1,7 +1,7 @@
 # Data Model: Voice Dictation Interface (MVP)
 
 **Feature**: 001-voice-dictation
-**Date**: 2026-01-15
+**Date**: 2026-01-16
 **Status**: Draft
 **Input**: Derived from [spec.md](./spec.md) and [research.md](./research.md)
 
