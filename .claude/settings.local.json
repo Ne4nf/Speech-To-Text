@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe:*)",
+      "Bash(bash .specify/scripts/bash/create-new-feature.sh:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(Test-Path:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git fetch:*)",
+      "Bash(git push:*)",
+      "Bash(node scripts/query-checkpoint-comments.js:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(bash:*)",
+      "WebSearch",
+      "Bash(bd list:*)",
+      "Bash(bd create:*)",
+      "Bash(bd ready:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm run dev)",
+      "Bash(timeout:*)",
+      "Bash(npm run build:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(grep:*)",
+      "Bash(bd update:*)",
+      "Bash(ls:*)",
+      "Bash(.specify/scripts/bash/create-new-feature.sh:*)",
+      "Bash(.specify/scripts/bash/setup-plan.sh:*)"
+    ]
+  }
+}
