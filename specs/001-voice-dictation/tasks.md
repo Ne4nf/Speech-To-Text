@@ -2,7 +2,7 @@
 description: "Task list template for feature implementation"
 ---
 
-# Tasks Index: Voice Dictation Interface (MVP)
+# Tasks Index: Voice Dictation Interface (MVP) -v2
 
 Beads Issue Graph Index into the tasks and phases for this feature implementation.
 This index does **not contain tasks directly**—those are fully managed through Beads CLI.
