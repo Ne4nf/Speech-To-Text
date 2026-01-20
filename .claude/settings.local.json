@@ -26,7 +26,15 @@
       "Bash(bd update:*)",
       "Bash(ls:*)",
       "Bash(.specify/scripts/bash/create-new-feature.sh:*)",
-      "Bash(.specify/scripts/bash/setup-plan.sh:*)"
+      "Bash(.specify/scripts/bash/setup-plan.sh:*)",
+      "Bash(git -C \"C:\\\\Users\\\\THUC\\\\Downloads\\\\Speech-To-Text\" status:*)",
+      "Bash(dir:*)",
+      "Bash(bd close:*)",
+      "Bash(test:*)",
+      "Bash(npx tsc:*)",
+      "Bash(bd:*)",
+      "Bash(git checkout:*)",
+      "Bash(git stash push:*)"
     ]
   }
 }
